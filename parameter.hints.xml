@@ -1,0 +1,17 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="org.junit.jupiter.api.Assertions.assertEquals(expected,actual)" />
+        <added pattern="java.lang.String.join(delimiter,elements)" />
+        <added pattern="com.github.masx200.leetcode_treenode_java.TreeNode.serialize(root)" />
+      </blacklist>
+      <blacklist language="Kotlin">
+        <added pattern="java.util.HashMap.getOrDefault(key,defaultValue)" />
+      </blacklist>
+    </blacklists>
+    <disabledLanguages>
+      <language id="kotlin" />
+    </disabledLanguages>
+  </component>
+</application>
