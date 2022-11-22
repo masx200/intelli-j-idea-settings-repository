@@ -1,0 +1,9 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="ide.suppress.double.click.handler" value="true" />
+      </map>
+    </option>
+  </component>
+</application>
